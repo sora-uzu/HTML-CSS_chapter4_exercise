@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header{
+  width: 100%;
+  height: 50px;
+  background: red;
+}
+
+.mainvisual{
+  width: 100%;
+  height: 500px;
+  background: orange;
+}
+
+.main {
+  width: 960px;
+  background-color: green;
+  margin: 0 auto;
+}
+.box1 {
+  width: 230px;
+  height: 1400px;
+  background-color: limegreen;
+  margin: 0 auto;
+  float: left;
+}
+.box2 {
+  width: 230px;
+  height: 1400px;
+  background-color: limegreen;
+  margin: 0 auto;
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footer {
+  height: 100px;
+  background: blue;
+}
